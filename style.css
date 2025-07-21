@@ -1,0 +1,91 @@
+
+
+.wbody, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease;
+}
+
+/* Remove background from this now */
+.background-animation {
+    display: none;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: gold;
+    margin-bottom: 25px;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #b993d6 0%, #8ca6db 100%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #fc6076 0%, #ff9a44 100%);
+    transform: scale(1.05);
+}
+
+.weather-box {
+    color: white;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    background-size: cover;          /* This stretches the image */
+    background-position: center;     /* Centers the image */
+    background-repeat: no-repeat;    /* Prevents repeating */
+    background-attachment: fixed;    /* Fixes the image in place while scrolling */
+    transition: background-image 1s ease;  /* Smooth transition */
+}
